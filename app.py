@@ -18,7 +18,7 @@ import atexit
 led.LED.off()
 #Initialize the sound objects
 noise = sound.audioPlayer("data/noise.wav",-1,"noise",True)
-wakeup = sound.audioPlayer("data/ok_google.wav",0,"wakeup", False)
+wakeup = sound.audioPlayer("data/alexa.wav",0,"wakeup", False)
 
 # Socket connection between client
 #====================================================#
